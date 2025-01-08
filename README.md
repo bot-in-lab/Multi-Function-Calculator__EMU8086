@@ -1,31 +1,53 @@
-This project contains an assembly program written for 8086 microprocessor emulation. It is a multi-functional calculator that provides the following features:
+Title: Multi-Function Calculator in Assembly Language (8086)
+
+Description:
+
+This repository contains the source code for a multi-functional calculator written in Assembly Language for the 8086 microprocessor. The program is designed to execute a variety of calculations and conversions through a user-friendly text-based menu system.
+
+Key Features:
 
 Simple Calculator:
 
-Perform basic arithmetic operations like:
-Addition
-Subtraction
-Multiplication
-Division (including handling division by zero and displaying floating-point results).
+Perform basic arithmetic operations: addition, subtraction, multiplication, and division.
+Handles edge cases such as division by zero and displays appropriate error messages.
 Base Converter:
 
 Convert numbers between different numeral systems:
-Decimal to Binary
-Decimal to Hexadecimal
-Binary to Decimal
-Hexadecimal to Decimal
+Decimal to Binary, Hexadecimal, and Octal.
+Binary, Hexadecimal, and Octal to Decimal.
+Provides step-by-step conversion logic.
 Temperature Converter:
 
-Convert temperature units between:
-Celsius, Fahrenheit, and Kelvin.
-Key Features:
-User Interface: A simple and intuitive prompt-driven interface implemented using DOS interrupts (INT 21H) for user inputs and outputs.
-Error Handling: Includes checks for invalid inputs, division by zero, and other boundary cases (e.g., binary and hexadecimal validation).
-Modular Design: Organized using macros (e.g., PROMPT_PRINTER) and modular procedures for efficient reusability and readability.
-Optimized Memory Use: Utilizes .DATA and .STACK segments efficiently for storing variables and intermediate results.
-Requirements:
-Emulator: Requires an 8086 emulator, such as EMU8086, to compile and run the code.
-Assembly Language knowledge to modify and extend functionality.
-This program is ideal for learning assembly language basics, understanding 8086 architecture, and exploring real-world applications of microprocessor programming.
+Convert between Celsius, Fahrenheit, and Kelvin.
+Handles negative and extreme temperature values gracefully.
+Interactive Menu System:
 
-Feel free to contribute and enhance the code by adding more features like advanced calculations or additional unit conversions!
+Displays options to users in a clear format.
+Provides prompts for invalid inputs and allows retry without restarting the program.
+Optimized for EMU8086 Emulator:
+
+Compatible with the EMU8086 assembler/emulator for easy testing and execution.
+Usage:
+
+Clone the repository and open the .ASM file in the EMU8086 emulator.
+Assemble and run the program to explore the features.
+Applications:
+
+Ideal for students learning Assembly Language and microprocessor programming.
+Demonstrates the use of interrupts, loops, and memory operations in Assembly.
+Contributions: Feel free to fork the repository and contribute improvements or new features. Pull requests are welcome!
+
+This repository showcases the power and complexity of Assembly Language programming while providing a practical tool for basic calculations and conversions.
+
+
+
+
+
+
+
+
+
+
+
+
+
